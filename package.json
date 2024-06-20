@@ -1,0 +1,31 @@
+{
+	"name": "website",
+	"author": "yuuire",
+	"repository": "https://github.com/yuuire/website",
+	"private": true,
+	"type": "module",
+	"scripts": {
+		"dev": "vite dev",
+		"build": "vite build",
+		"preview": "vite preview"
+	},
+	"eslintConfig": {
+		"extends": "preact"
+	},
+	"dependencies": {
+		"normalize.css": "^8.0.1",
+		"preact": "^10.22.0",
+		"preact-iso": "^2.6.3",
+		"preact-router": "^4.1.2"
+	},
+	"devDependencies": {
+		"@preact/preset-vite": "^2.8.2",
+		"autoprefixer": "^10.4.19",
+		"eslint": "^9.5.0",
+		"eslint-config-preact": "^1.4.0",
+		"postcss": "^8.4.38",
+		"tailwindcss": "^3.4.4",
+		"typescript": "^5.4.5",
+		"vite": "^5.3.1"
+	}
+}
