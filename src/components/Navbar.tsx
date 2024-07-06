@@ -13,7 +13,7 @@ export function Navbar() {
                     <i class="text-neutral-400 ml-1">{repos}</i>
                     <ul class="ml-7">
                         <li>
-                            <a class="text-brand hover:underline text-xl" href={"https://github.com/" + meta.author + "/website"}>Website</a>
+                            <a class="text-brand hover:underline text-xl" href={meta.repo}>Website</a>
                             {/* <i class="text-neutral-400 ml-1">1 // stars</i> */}
                         </li>
                         <li>
@@ -24,6 +24,7 @@ export function Navbar() {
                 </li>
                 <li><a class="text-brand hover:underline text-xl" href={"https://blog." + meta.plainurl}>Blog</a></li>
                 <li><a class="text-brand hover:underline text-xl" href={"https://github.com/" + meta.author}>GitHub</a></li>
+                <li><a class="text-brand hover:underline text-xl" href="/donate">Donate</a></li>
                 <li><a class="text-brand hover:underline text-xl" href={"mailto:" + meta.email }>Email</a></li>
             </ul>
         </nav>

@@ -8,9 +8,9 @@ import { Footer } from "./components/Footer";
 import { Home } from "./pages/home";
 import { Links } from "./pages/links";
 import { Projects } from "./pages/projects";
+import { Donate } from "./pages/donate";
 import { NotFound } from "./pages/_404";
 
-import "normalize.css";
 import "./style.css";
 
 export function App() {
@@ -24,6 +24,7 @@ export function App() {
 						<Route path="/" component={Home}/>
 						<Route path="/links" component={Links}/>
 						<Route path="/projects" component={Projects}/>
+						<Route path="/donate" component={Donate}/>
 						<Route default component={NotFound}/>
 					</Router>
 				</div>

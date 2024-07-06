@@ -1,7 +1,7 @@
 {
-	"name": "website",
+	"name": "silk-road-marketplace",
 	"author": "yuuire",
-	"repository": "https://github.com/yuuire/website",
+	"repository": "https://github.com/yuuire/silk-road-marketplace",
 	"private": true,
 	"type": "module",
 	"scripts": {
@@ -13,7 +13,6 @@
 		"extends": "preact"
 	},
 	"dependencies": {
-		"normalize.css": "^8.0.1",
 		"preact": "^10.22.0",
 		"preact-iso": "^2.6.3",
 		"preact-router": "^4.1.2"
