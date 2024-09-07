@@ -6,7 +6,6 @@ export function Links() {
 		<>
             <h1 class="text-3xl font-medium mb-5">Contact</h1>
 			<p class="text-xl">
-				Matrix: <a class="text-brand hover:underline font-bold" href={"https://matrix.to/#/" + meta.matrix}>{meta.matrix}</a><br/>
 				Email: <a class="text-brand hover:underline font-bold" href={"mailto:" + meta.email}>{email}</a><br/>
                 {/* <a class="text-brand hover:underline font-bold">PGP public key</a> */}
 			</p>
